@@ -22,7 +22,7 @@ permalink: /links/
 - [neocities](https://neocities.org/site/icodeweb)
 - [instagram](https://instagram.com/i.ismail98)
 - [web-art](https://icodeweb.github.io/web-art/)
-- [will add more](/posts/2025//03/01/i-have-a-blog.html)
+- [will add more](layers/posts/2025//03/01/i-have-a-blog.html)
 
 </div>
 </div>
