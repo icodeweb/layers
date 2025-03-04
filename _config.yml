@@ -4,12 +4,12 @@ description: >-
   unfiltered thoughts, half-formed concepts, untouched potential, 
   things I like, personal matters, nonsense, whatever, and anti-perfectionism.
 baseurl: "/layers"
-url: "https://icodeweb.github.io"
+url: "https://icodeweb.github.io/"
 author: ibrahim ismail
 twitter_username: 6962726168696d
 github_username: icodeweb
 instagram_username: i.ismail98
-permalink: /:baseurl/:year/:month/:day/:title.html
+
 theme: minima
 plugins:
   - jekyll-feed

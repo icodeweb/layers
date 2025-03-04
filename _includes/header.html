@@ -7,6 +7,6 @@
     <marquee class="description-marquee" scrollamount="5" loop="2">{{- site.description | escape -}}</marquee>
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ " /" | home }}">{{ site.title | escape }}</a>
+    <a class="site-title" rel="author" href="{{ site.baseurl }}/">{{ site.title | escape }}</a>
   </div>
 </header>
