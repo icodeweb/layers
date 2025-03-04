@@ -8,5 +8,5 @@ if (document.body.getAttribute("data-page") === "home") {
 let grayscaleToggleElemnt = document.querySelector("#g-scaleToggle");
 grayscaleToggleElemnt.addEventListener("click", () => {
     document.body.classList.toggle("grayscale");
-    document.querySelector("html").style.backgroundColor = "#121212"
+    document.querySelector("html").style.backgroundColor = "#090988"
 });

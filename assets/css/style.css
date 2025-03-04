@@ -18,17 +18,15 @@ html {
     color: white;
     border-top: none;
     border-bottom: none;
-    min-height: 55.95px;
+    min-height: calc(100vh/9);
+    height: calc(100vh/9);
     position: sticky;
     top: 0px;
-    height: 5rem;
-    align-items: center;
     display: flex;
-
 }
 
 .grayscale {
-    filter: grayscale(100%);
+    filter: grayscale(50%);
     transition: filter .3s ease-in-out;
 }
 
@@ -40,7 +38,6 @@ html {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
-    padding: 30px;
     max-width: 840px;
     gap: 20px;
 }
@@ -48,7 +45,6 @@ html {
 .site-title,
 .site-title:visited {
     color: white;
-    z-index: 1000;
 }
 
 marquee {
@@ -90,8 +86,7 @@ marquee {
 .site-footer span,
 .site-footer use {
     color: white;
-    fill: white;
-
+    fill: rgb(255, 255, 255);
 }
 
 .social-media-list li+li {
@@ -111,21 +106,14 @@ marquee {
     padding: 50px 50px !important;
 }
 
-/* img {
-    filter: grayscale(0%) !important;
-} */
-
 .post-content {
     margin-bottom: 0px;
 }
 
 #g-scaleToggle {
-    /* top: 0px;
-    position: absolute; */
     border: none;
     background-color: transparent;
     cursor: pointer;
-    width: 30px;
     padding: 0px;
     margin: 0px;
     color: white;
@@ -147,9 +135,7 @@ marquee {
 
 .footer-col-wrapper:after,
 .wrapper:after {
-    content: "";
     display: none;
-    clear: both;
 }
 
 /* .post {
@@ -160,6 +146,8 @@ marquee {
 
 .links-container {
     display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
     justify-content: space-around;
 }
 
