@@ -3,4 +3,4 @@ layout: default
 title: About
 ---
 
-This is the about page. Learn more about my site here.
+This is the about page. and it has nothing yet.

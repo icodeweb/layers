@@ -10,8 +10,9 @@ html {
     -ms-overflow-style: none;
     scrollbar-width: none;
     overflow: auto;
-    background-color: rgb(106, 106, 106);
+    background-color: var(--theme-color-main);
 }
+
 
 .site-header {
     color: white;
@@ -36,12 +37,12 @@ html {
 }
 
 .site-header>.wrapper {
-
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
     padding: 30px;
     max-width: 840px;
+    gap: 20px;
 }
 
 .site-title,
@@ -51,7 +52,6 @@ html {
 }
 
 marquee {
-    margin-left: 50px;
     font-family: monospace;
     font-weight: 100;
 }
@@ -143,4 +143,33 @@ marquee {
 
 .header-links a:hover {
     text-decoration: underline;
+}
+
+.footer-col-wrapper:after,
+.wrapper:after {
+    content: "";
+    display: none;
+    clear: both;
+}
+
+/* .post {
+    position: sticky;
+    top: 120px;
+} */
+
+
+.links-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links-container div ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    gap: 5px;
 }

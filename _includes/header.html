@@ -1,6 +1,9 @@
 <header class="site-header theme-bg" role="banner">
 
   <div class="wrapper header-wrapper">
+    <nav class="header-links">
+      <a href="{{ '/links' | relative_url }}">links</a>
+    </nav>
     <marquee class="description-marquee" scrollamount="5" loop="2">{{- site.description | escape -}}</marquee>
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}

@@ -3,7 +3,7 @@
 
 {%- include head.html -%}
 
-<body data-page="home">
+<body>
   {%- include header.html -%}
 
   <main class="page-content theme-bg" aria-label="Content">
@@ -17,45 +17,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-<!-- <!DOCTYPE html>
-<html lang=" {{ page.lang | default: site.lang | default: " en" }}">
-
-{%- include head.html -%}
-
-<body data-page="home">
-
-  {%- include header.html -%}
-  {%- include header.html -%}
-  {%- include header.html -%}
-  {%- include header.html -%}
-  {%- include header.html -%}
-  {%- include header.html -%}
-  {%- include header.html -%}
-  {%- include header.html -%}
-  {%- include main-header.html -%}
-  <main class="page-content theme-bg" aria-label="Content">
-    {% for post in site.posts %}
-    <article class="post wrapper">
-      <div class="post-info">
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p>{{ post.date | date: "%B %-d, %Y" }}</p>
-      </div>
-      <div class="post-content">
-        {{ post.content }}
-      </div>
-    </article>
-    {% endfor %}
-  </main>
-
-  {%- include footer.html -%}
-  <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
-</body>
-
-</html> -->

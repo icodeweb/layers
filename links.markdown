@@ -4,11 +4,25 @@ title: Links
 permalink: /links/
 ---
 
-# Cool Links
+<div class="links-container" markdown="1">
+<div markdown="1">
 
-Here are some cool websites I recommend:
+## Links I Recommend
 
-<ul>
-  <li><a href="https://example.com" target="_blank">Example Website</a></li>
-  <li><a href="https://anotherexample.com" target="_blank">Another Example</a></li>
-</ul>
+- [melonking](https://melonking.net/)
+- [Collin Cunningham](https://www.collinmel.com/)
+
+</div>
+
+<div markdown="1">
+## My Links
+
+- [x](https://www.x.com/6962726168696d)
+- [github](https://github.com/icodeweb)
+- [neocities](https://neocities.org/site/icodeweb)
+- [instagram](https://instagram.com/i.ismail98)
+- [web-art](https://icodeweb.github.io/web-art/)
+- [will add more](/posts/2025//03/01/i-have-a-blog.html)
+
+</div>
+</div>
