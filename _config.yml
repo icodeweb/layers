@@ -9,7 +9,7 @@ author: ibrahim ismail
 twitter_username: 6962726168696d
 github_username: icodeweb
 instagram_username: i.ismail98
-
+permalink: /:baseurl/:year/:month/:day/:title.html
 theme: minima
 plugins:
   - jekyll-feed
