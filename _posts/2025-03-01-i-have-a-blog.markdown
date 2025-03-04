@@ -19,3 +19,4 @@ The internet has become either boring or useless a lot of the time.
 That’s why this blog is a step toward creating my own spaces—a place to write whatever I want, even if it’s just words to myself.
 
 I have a blog now.
+![img](https://thoughts.melonking.net/images/69.jpg)
