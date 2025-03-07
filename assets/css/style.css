@@ -13,6 +13,9 @@ html {
     background-color: var(--theme-color-main);
 }
 
+body {
+    background-color: var(--theme-color-main);
+}
 
 .site-header {
     color: white;
