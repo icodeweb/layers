@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I uploaded a video
+title: i uploaded a video
 date: 2025-03-09 00:00:00 +0200
 categories: posts
 ---

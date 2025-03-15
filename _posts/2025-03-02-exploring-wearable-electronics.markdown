@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Exploring Wearable Electronics"
+title:  "thinking wearable electronics"
 date:   2025-03-02 03:25:30 +0200
 categories: posts
 ---

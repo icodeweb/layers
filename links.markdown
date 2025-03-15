@@ -17,6 +17,8 @@ permalink: /links/
 - [paperjs](http://paperjs.org/)
 - [tixy](https://tixy.land/)
 - [hydra](https://hydra.ojack.xyz/?sketch_id=mahalia_4)
+- [Meshroom](https://alicevision.org/#meshroom)
+- [aesthetic.computer](https://aesthetic.computer/)
 
 </div>
 
@@ -26,6 +28,7 @@ permalink: /links/
 
 - [melonking](https://melonking.net/)
 - [Collin Cunningham](https://www.collinmel.com/)
+- [Reed Ghazala](http://www.anti-theory.com/)
 
 </div>
 
